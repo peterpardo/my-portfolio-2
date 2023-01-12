@@ -1,6 +1,7 @@
 import React from 'react'
-import WorkImg from '../assets/projects/workImg.jpeg';
-import realEstate from '../assets/projects/realestate.jpg';
+import ecommerce from '../assets/projects/ecommerce-product-page.png';
+import restApiCountries from '../assets/projects/rest-api-countries.png';
+import ipAddressTracker from '../assets/projects/ip-address-tracker.png';
 
 const Work = () => {
   return (
@@ -16,19 +17,19 @@ const Work = () => {
 
           {/* Grid Item */}
           <div 
-          style={{ backgroundImage: `url(${WorkImg})` }}
+          style={{ backgroundImage: `url(${ecommerce})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-lg font-bold text-white tracking-wider'>
+              Ecommerce Product Page Design
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://ecommerce-productpage-design.vercel.app/" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/peterpardo/ecommerce-productpage-design" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
@@ -37,19 +38,40 @@ const Work = () => {
 
           {/* Grid Item */}
           <div 
-          style={{ backgroundImage: `url(${realEstate})` }}
+          style={{ backgroundImage: `url(${restApiCountries})` }}
           className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Rest API Coutries
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
+                <a href="https://rest-countries-api-opal.vercel.app/" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/peterpardo/rest-countries-api" target='_blank'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div 
+          style={{ backgroundImage: `url(${ipAddressTracker})` }}
+          className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                IP Address Tracker
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://ip-address-tracker-xi-nine.vercel.app/" target='_blank'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                </a>
+                <a href="https://github.com/peterpardo/ip-address-tracker" target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                 </a>
               </div>
